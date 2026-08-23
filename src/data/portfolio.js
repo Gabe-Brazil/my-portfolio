@@ -7,7 +7,7 @@
 import linkedInPic from '../assets/linkedInPic.png'
 
 export const profile = {
-  name: 'Gabriel Chayim "Gabe" Brazil',
+  name: 'Gabriel "Gabe" Brazil',
   tagline: 'Computer Science, Data Science & Economics',
   university: 'UW-Madison',
   location: 'Wisconsin, USA',
@@ -15,7 +15,7 @@ export const profile = {
     "I'm a CS, DS, & Economics student interested in the intersection " +
     'of algorithms, markets, and data. I build software and utilize new technology to visualize data and find patterns.',
   photo: linkedInPic,
-  resumeUrl: '/resume.pdf',
+  resumeUrl: '/my-portfolio/resume.pdf',
   email: 'gabrielbrazil11@outlook.com',
   socials: {
     github: 'https://github.com/gabe-brazil',
