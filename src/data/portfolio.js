@@ -44,17 +44,20 @@ export const education = [
 export const projects = [
   {
     id: 'project-1',
-    title: 'Market Simulation Engine',
-    tagline: 'Agent-based simulation of a limit order book',
+    title: 'Arbitrage Trader Script',
+    tagline: 'Python, PyTorch, React, Vite, SQLite',
     description:
-      'A discrete-event simulator that models market makers and noise ' +
-      'traders interacting through a limit order book, used to study how ' +
-      'microstructure rules affect price stability and liquidity.',
-    tags: ['Python', 'Simulation', 'Market Microstructure'],
+      'Built a full-stack arbitrage scanner that pulls live odds from betting ' +
+      'and prediction market APIs (Kalshi, Polymarket, and others) to detect ' +
+      'pricing discrepancies across platforms. I also trained a small sentence ' +
+      'embedding model with PyTorch to match event listings with inconsistent ' +
+      'naming and stored completed trades in SQLite while building a React/Vite ' +
+      'dashboard to analyze performance.',
+    tags: ['Python', 'PyTorch', 'React', 'Vite', 'SQLite'],
     accent: 'turquoise',
     video: { type: null, src: null },
     links: {
-      github: 'https://github.com/yourusername/market-sim-engine',
+      github: 'https://github.com/Gabe-Brazil',
       demo: null,
     },
   },
@@ -89,54 +92,6 @@ export const projects = [
     video: { type: null, src: null },
     links: {
       github: 'https://github.com/Gabe-Brazil/youmegle',
-      demo: null,
-    },
-  },
-  {
-    id: 'project-4',
-    title: 'Distributed Key-Value Store',
-    tagline: 'Fault-tolerant storage with Raft consensus',
-    description:
-      'A replicated key-value store implementing the Raft consensus ' +
-      'protocol for leader election and log replication, built to explore ' +
-      'trade-offs in distributed systems design.',
-    tags: ['Go', 'Distributed Systems', 'Raft'],
-    accent: 'silver',
-    video: { type: null, src: null },
-    links: {
-      github: 'https://github.com/yourusername/raft-kv-store',
-      demo: null,
-    },
-  },
-  {
-    id: 'project-5',
-    title: 'ML Price Prediction Pipeline',
-    tagline: 'Feature engineering + gradient boosting on equity data',
-    description:
-      'An end-to-end pipeline that engineers features from price, volume, ' +
-      'and macro data, then trains gradient-boosted models to forecast ' +
-      'short-horizon returns, with walk-forward validation.',
-    tags: ['Python', 'scikit-learn', 'Machine Learning'],
-    accent: 'gold',
-    video: { type: null, src: null },
-    links: {
-      github: 'https://github.com/yourusername/ml-price-prediction',
-      demo: null,
-    },
-  },
-  {
-    id: 'project-6',
-    title: 'Econometrics Research Toolkit',
-    tagline: 'Regression diagnostics and causal inference helpers',
-    description:
-      'A library of reusable econometrics tools — panel regressions, ' +
-      'difference-in-differences estimators, and diagnostic plots — built ' +
-      'for a research assistantship to speed up applied empirical work.',
-    tags: ['R', 'Econometrics', 'Statistics'],
-    accent: 'turquoise',
-    video: { type: null, src: null },
-    links: {
-      github: 'https://github.com/yourusername/econometrics-toolkit',
       demo: null,
     },
   },
