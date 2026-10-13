@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { GraduationCap, Download } from 'lucide-react'
 import { education, profile } from '../data/portfolio'
 
-export default function Education({ register, accent, accentSoft }) {
+export default function Education({ register, accent }) {
   return (
     <section
       id="education"
@@ -40,12 +40,8 @@ export default function Education({ register, accent, accentSoft }) {
             <div className="education__body">
               <div className="education__row">
                 <h3>{entry.school}</h3>
-                <span className="education__period" style={{ color: accentSoft }}>
-                  {entry.period}
-                </span>
               </div>
               <p className="education__degree">{entry.degree}</p>
-              <p className="education__gpa">{entry.gpa}</p>
               <ul className="education__details">
                 {entry.details.map((line) => (
                   <li key={line}>{line}</li>

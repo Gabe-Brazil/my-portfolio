@@ -33,7 +33,6 @@ export default function App() {
         <Education
           register={register}
           accent={getSectionTheme('education').accent}
-          accentSoft={getSectionTheme('education').accentSoft}
         />
         <Projects register={register} accent={getSectionTheme('projects').accent} />
         <Contact

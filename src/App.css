@@ -333,21 +333,10 @@
   font-weight: 600;
 }
 
-.education__period {
-  font-size: 14px;
-  font-weight: 600;
-}
-
 .education__degree {
   color: var(--silver);
-  margin: 6px 0 2px;
+  margin: 6px 0 14px;
   font-size: 16px;
-}
-
-.education__gpa {
-  color: var(--silver-soft);
-  font-size: 14px;
-  margin-bottom: 14px;
 }
 
 .education__details {

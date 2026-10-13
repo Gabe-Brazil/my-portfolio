@@ -28,8 +28,6 @@ export const education = [
     id: 'edu-1',
     school: 'University of Wisconsin-Madison',
     degree: 'B.S. in Computer Science & Economics, Certificate in Data Science',
-    period: '2025 — 2029',
-    gpa: 'GPA: 3.53 / 4.00',
     details: [
       'Relevant coursework: Data Structures & Algorithms, Machine Learning, ' +
         'Econometrics, Game Theory, Microeconomic Theory, Distributed Systems',
